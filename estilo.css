@@ -1,0 +1,111 @@
+* {
+    font-size: 100;
+}
+ul {
+    list-style-type: none;
+  }
+  
+#navegacion_izquierda{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 175px;
+    height: 100%;
+    background-color: #BABABA ;
+    color: #fff;
+    padding-top: 150px;    
+    border-right: 2px solid #4B90FF
+    ;
+}
+#navegacion_izquierda .ul__nav{
+    margin-left: -25px ;
+}
+ul span{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #9A9A9A;
+}
+#Navegacion_superior{
+    display: grid;
+    padding-left: 200px;
+    margin-right: 5px;
+}
+.contenedor{
+    padding-left: 200px;
+}
+.nav_superior__ul__li__izq {
+    margin: 5px;
+    border-right: 2px solid #000000; 
+    float: left;
+}
+.nav_superior__ul__li__izq a{
+    margin: 5px;
+}
+.nav_superior__ul__li{
+    margin: 5px;
+    border-right: 2px solid #000000; 
+    float: right;
+}
+.nav_superior__ul__li a{
+    margin: 5px;
+}
+.nav_superior__ul__li__buscador{
+    margin: 5px;
+    float: right;
+}
+#bienvenidos_a_wikipedia{
+    margin-right: 10px;
+    background: #DBDBDB ;
+    margin-bottom: 10px ;
+    border: 2px solid #BABABA  ;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.nav__wikipedia__ul__li{
+    margin: 10px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.nav__wikipedia__ul{
+    text-align: center;
+}
+.nav__wikipedia__ul__li__a{
+    text-decoration: none;
+    color: #000000;
+}
+#bienvenidos_a_wikipedia_content{
+    margin: 10px;
+}
+a{
+    color: #002BFF ;
+    text-decoration: none;
+}
+span{
+    margin-top: 15px;
+}
+#articulo_destacado_div{
+    background-color: #CECECE ;
+    margin-right: 10px;
+    display: inline-block;
+    border: 2px solid #BABABA  ;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+#articulo_destacado_div__div{
+    margin: 10px;
+}
+figure {
+    float: right;
+    float: top;
+    border: 2px solid #000000;
+    text-align: center;
+  }
+  
+  figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.Charles_Domery{
+    color: #000000;
+}
+  
