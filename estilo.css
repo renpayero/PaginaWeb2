@@ -11,7 +11,7 @@ ul {
     left: 0;
     width: 175px;
     height: 100%;
-    background-color: #BABABA ;
+    background-color: #f8f9f9 ;
     color: #fff;
     padding-top: 150px;    
     border-right: 2px solid #4B90FF
@@ -21,10 +21,11 @@ ul {
     margin-left: -25px ;
 }
 ul span{
+    color: #8b8a8a;
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 10px;
-    border-bottom: 1px solid #9A9A9A;
+    border-bottom: 1px solid #b5b5b5;
 }
 #Navegacion_superior{
     display: grid;
@@ -55,9 +56,8 @@ ul span{
     float: right;
 }
 #bienvenidos_a_wikipedia{
-    margin-right: 10px;
-    background: #DBDBDB ;
-    margin-bottom: 10px ;
+    margin: 5px;
+    background: #f8f9f9 ;
     border: 2px solid #BABABA  ;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -85,23 +85,23 @@ span{
     margin-top: 15px;
 }
 #articulo_destacado_div{
-    background-color: #CECECE ;
-    margin-right: 10px;
-    display: inline-block;
+    margin: 5px;
+    display: flex;
     border: 2px solid #BABABA  ;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 #articulo_destacado_div__div{
-    margin: 10px;
+    margin: 5px;
 }
 figure {
+    width: 150px;
     float: right;
-    float: top;
+    display: inline-block;
     border: 2px solid #000000;
     text-align: center;
   }
   
-  figcaption {
+figcaption {
     margin-top: 10px;
     font-size: 14px;
 }
