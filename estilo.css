@@ -12,10 +12,12 @@ ul {
     width: 175px;
     height: 100%;
     background-color: #f8f9f9 ;
-    color: #fff;
-    padding-top: 150px;    
+    color: #fff;  
     border-right: 2px solid #4B90FF
     ;
+}
+#logo_wikipedia{
+    height: 175px;
 }
 #navegacion_izquierda .ul__nav{
     margin-left: -25px ;
@@ -90,7 +92,7 @@ span{
     border: 2px solid #BABABA  ;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
-#articulo_destacado_div__div{
+.articulo_destacado_div__div{
     margin: 5px;
 }
 figure {
